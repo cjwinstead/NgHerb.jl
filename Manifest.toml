@@ -2,17 +2,11 @@
 
 julia_version = "1.12.6"
 manifest_format = "2.0"
-project_hash = "f8556de8ceff5f13bdaf89939adbdadb5282f7ec"
+project_hash = "ceed6091a6cd7dfd34294af0b9c78ba562e58f8d"
 
 [[deps.Artifacts]]
 uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 version = "1.11.0"
-
-[[deps.DataStructures]]
-deps = ["OrderedCollections"]
-git-tree-sha1 = "b0bc6d2cad1fed8b7fd59a1551a991cb3d2809e6"
-uuid = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
-version = "0.19.6"
 
 [[deps.Dates]]
 deps = ["Printf"]
@@ -30,15 +24,10 @@ uuid = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 version = "1.11.0"
 
 [[deps.NgHerb]]
-deps = ["DataStructures", "ngspice_jll"]
+deps = ["ngspice_jll"]
 path = "."
 uuid = "16d751f2-2168-46b0-9d00-9e1470832ba3"
 version = "0.2.0"
-
-[[deps.OrderedCollections]]
-git-tree-sha1 = "f9b03759e9ef463718934fbed30820b39997511e"
-uuid = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
-version = "2.0.2"
 
 [[deps.Preferences]]
 deps = ["TOML"]
